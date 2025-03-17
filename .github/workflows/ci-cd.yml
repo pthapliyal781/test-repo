@@ -3,7 +3,7 @@ name: Node.js CI/CD Pipeline
 # Trigger the workflow on push to the main branch
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 # Define the jobs to run
 jobs:
