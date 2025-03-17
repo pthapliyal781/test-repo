@@ -2,7 +2,7 @@ name: Node.js CI/CD Pipeline
 
 # Trigger the workflow on push to the main branch
 on:
-  repository_dispatch:
+  workflow_dispatch:
   push:
     branches: [ master ]
 
